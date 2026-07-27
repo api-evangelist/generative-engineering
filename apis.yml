@@ -1,8 +1,27 @@
 aid: generative-engineering
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/generative-engineering.png
 name: Generative Engineering
-description: 'Generative Engineering is a company surfaced as a portfolio company of eqt-ventures and
-  added to the API Evangelist network as a stub for enrichment. Sector: engineering-services. This profile
-  is a lead awaiting the enrichment pipeline.'
+description: 'Generative Engineering (Generative Vision Ltd) is a London-based deep-tech
+  startup, founded in 2021, building a platform that generates, tests, and simulates
+  thousands of engineering designs in parallel, in a fraction of the time traditional
+  processes take. A code-first integration framework lets engineers plug in their
+  existing tools alongside out-of-the-box integrations, spanning concept engineering,
+  systems integration, and cost engineering. Parallel engineering aims to radically
+  cut product development time for real-world products across energy, decarbonization,
+  agriculture, and mobility. The company is backed by a pre-seed round led by EQT Ventures
+  with participation from Join Capital. It publishes no public developer API, SDKs,
+  or developer portal at this time.'
 url: https://raw.githubusercontent.com/api-evangelist/generative-engineering/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,10 +31,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
 - Engineering Services
+- Generative Design
+- Simulation
+- Deep Tech
+- AI Engineering
+- Product Development
+- Systems Engineering
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -25,3 +50,16 @@ maintainers:
 common:
 - type: Website
   url: https://generative.vision/
+- type: Blog
+  url: https://blog.generative.vision/
+- type: Support
+  url: https://generative.vision/contact
+- type: PrivacyPolicy
+  url: https://cdn.sanity.io/files/i9ii1y29/production/4e647194916efb34b721c397976596c339f11673.pdf
+- type: LinkedIn
+  url: https://linkedin.com/company/generativeengineering
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
